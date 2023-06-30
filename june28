@@ -1,0 +1,53 @@
+ 1576  https://github.com/jaspinder08/jassi123.git
+ 1577  git clone https://github.com/jaspinder08/jassi123.git
+ 1588  git add README.md 
+ 1593  git commit "my first commit"
+ 1594  git commit -m "my first commit"
+ 1595  git push 
+ 1596  touch today.html 
+ 1597  git add .
+ 1598  git commit "first"
+ 1599  git commit -m "first"
+ 1600  git push 
+ 1601  docker volumes 
+ 1602  docker volume
+ 1603  docker volume ls 
+ 1604  cd /
+ 1605  systemctl status docker 
+ 1606  systemctl start docker 
+ 1607  docker images 
+ 1608  docker ps 
+ 1609  docker volume create xyz123
+ 1610  docker volume ls 
+ 1611  docker volume inspect xyz123
+ 1612  docker volume rm prune 
+ 1613  docker volume prune 
+ 1614  docker volume create xyz 
+ 1615  docker volume ls 
+ 1616  docker volume rm xyz123
+ 1617  docke volume ls 
+ 1618  docker volume ls 
+ 1619  docker run -it --name jk8 -v xyz:/home/ubuntu ubuntu bash 
+ 1620  docker volume inspect xyz
+ 1621  docker volume inspect xyz 
+ 1622  docker run -it --name asdf -v xyz:/home/ubuntu ubuntu bash 
+ 1623  docker run -it -e hello=world ubuntu bash 
+ 1624  docker run -f $(docker ps -aq)
+ 1625  docker rm -f $(docker ps -aq)
+ 1626  docker images 
+ 1627  docker ps -a
+ 1628  docker run -itd --name c1 alpine sh 
+ 1629  docker exec -it c1 sh 
+ 1630  docker network ls 
+ 1631  docker run -itd --name c2 alpine sh 
+ 1632  docker run -itd --name c3 --network none  alpine sh 
+ 1633  docker run -itd --name c4 --network host  alpine sh 
+ 1634  docker network create myxyz
+ 1635  docker network ls 
+ 1636  docker inspect myxyz 
+ 1637  docker run -itd --name c5 --network myxyz  alpine sh 
+ 1638  docker run -itd --name c6 --network myxyz  alpine sh 
+ 1639  docker inspect c5
+ 1640  docker inspect c5 | grep IP 
+ 1641  docker exec -it c6 sh 
+
